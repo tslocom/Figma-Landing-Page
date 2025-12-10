@@ -131,4 +131,186 @@ header {
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0%;
+    opacity: 40%;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    width: auto;
+    height: 920px;
+    margin-top: 37px;
+    gap: 70px;
+}
+
+.skill-item {
+    width: 160px;
+    height: 60px;
+    border: 1px solid #1B1B1B;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    opacity: 30%;
+}
+
+.about-section {
+    width: 897px;
+    height: 1242px;
+    top: 780px;
+    margin-left: 207px;
+    margin-right: 176px;
+
+}
+
+.about-head {
+    text-align: center;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.about-intro {
+    width: 570px;
+    margin-left: 147px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 892px;
+    height: 182px;
+    margin-top: 60px;
+}
+
+.label {
+    width: 72px;
+    height: 27px;
+    background-color: #FFF6E9;
+    border-radius: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+    gap: 10px;
+    text-align: center;
+    line-height: 27px;
+    color: #FFA217;
+    font-weight: 700px;
+    font-size: 12px;
+    font-style: bold;
+    letter-spacing: 1%;
+}
+
+.title {
+    width: 192px;
+    height: 28px;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.description {
+    width: 421px;
+    height: 96px;
+    gap: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1%;
+}
+
+.card-image {
+    width: 445px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.right-image {
+    width: 445px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.card-right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 892px;
+    height: 182px;
+    margin-top: 175px;
+}
+
+.right-label {
+    width: 72px;
+    height: 27px;
+    background-color: #D0E6FF;
+    border-radius: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+    gap: 10px;
+    text-align: center;
+    line-height: 27px;
+    color: #000AFF;
+    font-weight: 700px;
+    font-size: 12px;
+    font-style: bold;
+    letter-spacing: 1%;
+}
+
+.right-title {
+    width: 192px;
+    height: 28px;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.right-description {
+    width: 421px;
+    height: 96px;
+    gap: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1%;
+}
+
+.card-left-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 892px;
+    height: 182px;
+    margin-top: 175px;
+}
+
+.label-2 {
+    width: 72px;
+    height: 27px;
+    background-color: #E0FFF8;
+    border-radius: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+    gap: 10px;
+    text-align: center;
+    line-height: 27px;
+    color: #2AB090;
+    font-weight: 700px;
+    font-size: 12px;
+    font-style: bold;
+    letter-spacing: 1%;
 }
